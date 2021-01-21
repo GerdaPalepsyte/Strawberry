@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DayChoosing">
+
+    <ImageView
+        android:id="@+id/imageViewFor"
+        android:layout_width="529dp"
+        android:layout_height="762dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408"
+        app:srcCompat="@drawable/choose" />
+
+
+    <TextView
+        android:id="@+id/textViewFor"
+        android:layout_width="279dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="Please enter your email"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonFor"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/signbut"
+        android:fontFamily="@font/nunito_sans"
+        android:onClick="resetPass"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/title"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+
+        android:id="@+id/editEmailForgot"
+        android:layout_width="338dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="232dp"
+        android:backgroundTint="#E83724"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text=""
+        android:textColor="#918E8E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

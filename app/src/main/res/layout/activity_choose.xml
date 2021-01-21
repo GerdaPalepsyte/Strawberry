@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DayChoosing">
+
+    <ImageView
+        android:id="@+id/imageViewCho"
+        android:layout_width="529dp"
+        android:layout_height="762dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408"
+        app:srcCompat="@drawable/choose" />
+
+    <TextView
+        android:id="@+id/textViewCho"
+        android:layout_width="260dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="Firstly, please give us
+        some information
+        about you"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCho2"
+        android:layout_width="338dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="212dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="How long does your period usually last?"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerCho"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="#E83724"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCho"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="268dp"
+        android:background="@drawable/signbut"
+        android:fontFamily="@font/nunito_sans"
+        android:onClick="openhome"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/title"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
